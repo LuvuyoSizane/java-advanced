@@ -58,7 +58,7 @@ public class Triangle extends Shape {
      */
     @Override
     public void display() {
-        System.out.println("========================");
+        System.out.println("============= ===========");
         System.out.println("Base : " + length);
         System.out.println("Height : " + width);
         System.out.println("Third Side : " + thirdside);
