@@ -21,10 +21,10 @@ public class Circle extends Shape {
     }
 
     @Override
-    public void display() {
-        System.out.println("========================");
-        System.out.println("Radius : "+ radius);
-        System.out.println("Area : "+ getArea());
-        System.out.println("Perimeter : "+ getPerimeter());
+    public String display() {
+          return  "========================"+
+            "Radius : "+ radius+
+            "Area : "+ getArea()+
+         "Perimeter : "+ getPerimeter();
     }
 }

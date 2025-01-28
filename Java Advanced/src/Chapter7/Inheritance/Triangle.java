@@ -53,16 +53,14 @@ public class Triangle extends Shape {
         return length + width + thirdside;
     }
 
-    /**
-     * Displays the details of the triangle, including the base, height, third side, area, and perimeter.
-     */
-    @Override
-    public void display() {
-        System.out.println("============= ===========");
-        System.out.println("Base : " + length);
-        System.out.println("Height : " + width);
-        System.out.println("Third Side : " + thirdside);
-        System.out.println("Area : " + getArea());
-        System.out.println("Perimeter : " + getPerimeter());
+
+
+    public String display() {
+       return "========================"+
+        "\nBase : " + length+
+        "\nHeight : " + width+
+        "\nThird Side : " + thirdside+
+        "\nArea : " + getArea()+
+        "\nPerimeter : " + getPerimeter();
     }
 }

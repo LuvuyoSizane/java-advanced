@@ -76,11 +76,11 @@ public class Shape {
         return (2 * length) + (2 * width);
     }
 
-    public void display(){
-        System.out.println("========================");
-        System.out.println("Length : "+length);
-        System.out.println("Width : "+width);
-        System.out.println("Area : "+ getArea());
-        System.out.println("Perimeter : " + getPerimeter());
+    public String display(){
+       return "========================"+
+        "Length : "+length+
+        "Width : "+width+
+        "Area : "+ getArea()+
+        "Perimeter : " + getPerimeter();
     }
 }
