@@ -1,4 +1,9 @@
 package Chapter8.Exercise;
+public class DepartmentException extends Exception {
 
-public class DepartmentException {
+    public DepartmentException(String message) {
+        super(message);
+
+    }
+
 }

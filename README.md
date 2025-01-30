@@ -19,3 +19,11 @@ Interfaces - an abstract class that allows multiple Inheritance.
 Polymophism -
 
 Encasulation -
+
+Exceptions are used for descriptive error handling. That is why we make our own exceptions.
+
+JUnit methods are always void, They are only used to test and return nothing
+
+Annotations-
+
+Assertions - the program works as required, expected equals the actual
